@@ -1,0 +1,19 @@
+.contactList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.contactList li {
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
